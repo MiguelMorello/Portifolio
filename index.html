@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <title>Miguel Morello Portifolio</title>
+    <meta http-equiv="X-UA-Compatible" content="ID=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/86307eaebe.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+  <div id="header">
+      <div class="container">
+          <nav>
+            <ul id="sidemenu">
+              <li><a href="#header"> Home</a></li>
+              <li><a href="#about"> About</a></li>
+              <li><a href="#services"> Services</a></li>
+              <li><a href="#portifolio"> Portifolio</a></li>
+              <li><a href="#contact">Contact </a></li>
+            <i class="fas fa-times" onclick= "closemenu()"></i>
+            </ul>
+              <i class="fas fa-bars" onclick="openmenu()"></i>
+          </nav>
+          <div class="header-text">
+            <h1> I'am <span> Miguel Morello <span> </h1>
+            <p>Backend Developer | Ethical Hacker | OSINT Professional </p>
+          </div>
+      </div>
+  </div>
+  <!---about-->
+<div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="about-col-1">
+          <img src="imagens/foto.png">
+        </div>
+          <div class="about-col-2">
+            <h1 class="sub"> About <span> Me <span> </h1>
+              <p> Welcome to my profile! I'm a brazilian programmer who embarked on a journey into the world of coding at the age
+                 of 14. From that moment on, I've been captivated by the endless possibilities that programming offers to shape the future. 
+                 My passion lies in harnessing the power of technology to automate processes and solve real-world challenges. </p>
+                <br> 
+              <p> I'm exploring cybersecurity potential to revolutionize industries and improve human life fuels my determination to learn 
+                and apply cybersecurity concepts effectively. Additionally, I am committed to promoting digital security and protecting 
+                online assets. Beyond my technical expertise, I value effective communication and collaborative teamwork. My bilingual 
+                proficiency in English and ongoing efforts to learn Spanish allow me to engage with diverse teams and stakeholders 
+                seamlessly. </p>
+            <div class="tab-titles">
+                  <p class="tab-links active-link" onclick= "opentab('skills')"> Skills </p>
+                  <p class="tab-links" onclick= "opentab('experience')"> Experience </p>
+                  <p class="tab-links" onclick= "opentab('certificates')">  Certificates </p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                  <li><span>Python Programming</span><br> Proficient in Python programming, with a focus on automation, data analysis, and web development, 
+                    leveraging libraries such as Pandas, NumPy, and Django to deliver efficient solutions.</li>
+                  <li><span> Cybersecurity</span><br> Skilled in cybersecurity principles, including threat detection, 
+                    vulnerability assessment, and incident response, ensuring robust protection of digital assets and networks.
+                  </li>
+                  <li><span>Open-Source Intelligence (OSINT) </span><br> Experienced in OSINT techniques to gather and analyze information
+                     from publicly available sources, aiding in research, investigations, and decision-making processes.</li>
+                  <li><span>Soft Skills</span><br> Strong communication, teamwork, and problem-solving skills, 
+                    enhancing collaboration and effectiveness in diverse environments.</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                  <li><span>Backend</span><br> Backend developer with experience in Python, JavaScript, and Bash. 
+                    I create scalable and efficient APIs using frameworks like Flask and Node.js, always focusing on security and maintainability.</li>
+                  <li><span>Hacking</span><br>Freelancer in ethical hacking, working with penetration testing using Kali Linux. 
+                    My certifications reflect my commitment to identifying and mitigating vulnerabilities to ensure cybersecurity.</li>
+                  <li><span>OSINT</span><br> In OSINT, I analyze public data to generate strategic insights. I use advanced tools to collect relevant information ethically and responsibly.</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="certificates">
+              <ul>
+                <li><span>Official ISC² CC online Self-Paced Traning 1M Certification </span><br> Completed the Official ISC² CC online Self-Paced Training 1M Certification, 
+                  demonstrating proficiency in cybersecurity concepts and practices endorsed by ISC².</li>
+                <li><span>SOC Analysis Certification</span><br> Obtained the SOC Analysis Certification, showcasing expertise in Security Operations Center (SOC) analysis, 
+                  including threat detection, incident response, and security monitoring.</li>
+                <li><span>Pentest Certification</span><br> Achieved the Pentest Certification, indicating proficiency
+                   in penetration testing methodologies and techniques to identify and mitigate security vulnerabilities.</li>
+                <li><span>Developing Secure Software Certification</span><br> Earned the Developing Secure Software Certification, 
+                  highlighting skills in developing software with a focus on security, utilizing best practices to ensure secure 
+                  coding and application development. </li>
+              </ul>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--services-->
+<div id="services">
+  <div class="container">
+      <h1 class="sub"> My <span> Services <span> </h1>
+      <div class="services-list">
+          <div>
+            <i class="fa-solid fa-microchip"></i>
+            <h2>Backend develop</h2>
+            <p> Specializing in backend development to create efficient, secure, and scalable server-side applications, 
+              supporting seamless functionality for various web and mobile platforms.</p>
+          </div> 
+          <div>
+            <i class="fa-solid fa-user-secret"></i>
+            <h2>Ethical Hacking</h2>
+            <p>Offering ethical hacking services to identify and rectify security vulnerabilities in systems, 
+              ensuring robust protection against cyber threats. </p>
+          </div> 
+          <div>
+            <i class="fa-solid fa-fingerprint"></i>
+            <h2>OSINT </h2>
+            <p> Providing OSINT services to gather and analyze information from publicly available sources, 
+              aiding in comprehensive research and strategic decision-making processes.</p>
+          </div> 
+      </div>
+  </div>
+</div>
+<!--projetos-->
+<div id="portifolio">
+    <div class="container">
+        <h1 class="sub"> My <span> Projects </span> </h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="imagens/A1.jpeg">
+                <div class="layer">
+                    <h3>How KPIs Help Me in Cybersecurity </h3>
+                    <p>In this article, I explore the importance of KPIs in cybersecurity, highlighting how these metrics can be powerful allies in protecting against digital threats. </p>
+                    <a href="https://www.linkedin.com/pulse/how-kpis-help-me-cybersecurity-miguel-morello-jhioc/?trackingId=9Z7E4lBFRleNt4g4kUHkJg%3D%3D"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                </div>
+            </div>
+            <div class="work">
+              <img src="imagens/A2.jpeg">
+              <div class="layer">
+                <h3>The Methodology That Helped Me Learn OSINT </h3>
+                <p>In this article, I explore the Intelligence Cycle, a structured methodology that enhances skills in Open Source Intelligence (OSINT). </p>
+                <a href="https://www.linkedin.com/pulse/methodology-helped-me-learn-osint-miguel-morello-f4egf/?trackingId=uy6azWDoRxOL507jRkXPgg%3D%3D"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="imagens/A3.jpeg">
+            <div class="layer">
+              <h3> How the OKR Methodology Transformed My Approach to Cybersecurity</h3>
+              <p>In this article, I share how the Objectives and Key Results (OKR) methodology has transformed my approach to managing cybersecurity initiatives. </p>
+              <a href="https://www.linkedin.com/pulse/how-okr-methodology-transformed-my-approach-miguel-morello-xhoqf/?trackingId=uy6azWDoRxOL507jRkXPgg%3D%3D"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+          </div>
+        </div>
+        <!--<a href="#" class="btn">See More</a>-->
+      </div>
+    </div>
+</div>
+<!--Contact-->
+<div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub">Contact <span>Me</span></h1>
+          <p><i class="fa-solid fa-envelope"></i> guelmorello@gmail.com</p>
+          <div class="social-icons">
+              <a href="https://www.linkedin.com/in/miguelmorello/"><i class="fab fa-linkedin"></i></a>
+             <!--- <a href=""><i class="fab fa-x-twitter"></i></i></a>-->
+              <!--<a href=""><i class="fab fa-instagram"></i></i></a>-->
+          </div>
+          <a href="imagens/Resume.pdf" download class="btn btn2">Download Resume</a>
+        </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+           <span id="msg"> </span>
+          </div>
+      </div> 
+    </div>
+    <div class="copyright">
+      <p> Copyright © Miguel Morello. Site made by Miguel Morello.</p>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links"); 
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+      for(tablink of tablinks){
+          tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+          tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu= document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right= "0";
+    } 
+
+    function closemenu(){
+      sidemenu.style.right= "-200px";
+  }
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbx0GGUOgyVqXLUH06VJtxIeqZC49UaBnpqlcj5ajRaQ6s-cxspWKSHC3EfbqSZ1ZbRr/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+          msg.innerHTML = "Message Sent succcessfully"
+          setTimeout(function(){
+              msg.innerHTML = " "
+          }, 5000)
+          form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
